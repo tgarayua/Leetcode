@@ -66,6 +66,7 @@ func twoSum(_ nums: [Int], _ target: Int) -> [Int] {
                     return [index, diffIndex]
                     print("Hit! -> result: \(result)")
                     print("")
+                    print(hello)
                 } else {
                     print("Miss")
                     print("")
